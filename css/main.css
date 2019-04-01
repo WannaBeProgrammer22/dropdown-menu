@@ -1,1 +1,45 @@
-/* No CSS */ /*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu > li {
+  background-color: #a562c1;
+  width: 150px;
+  border: 0.5px solid #333;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  position: relative;
+}
+
+.menu > li:hover {
+  background-color: #7a3a95;
+}
+
+.menu > li:hover > .nav-dropdown {
+  display: block;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-dropdown {
+  display: none;
+}
+
+.nav-dropdown .nav-dropdown {
+  margin-left: 150px;
+  top: 0px;
+  position: absolute;
+}
+/*# sourceMappingURL=main.css.map */
