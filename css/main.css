@@ -4,20 +4,20 @@
 }
 
 .menu {
-  list-style: none;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 .menu > li {
-  background-color: #a562c1;
-  width: 150px;
-  border: 0.5px solid #333;
-  text-align: center;
-  height: 50px;
-  line-height: 50px;
-  float: left;
   position: relative;
+  height: 50px;
+  width: 150px;
+  float: left;
+  border: 0.5px solid #333;
+  background-color: #a562c1;
+  text-align: center;
+  line-height: 50px;
 }
 
 .menu > li:hover {
@@ -29,8 +29,8 @@
 }
 
 .menu a {
-  color: white;
   text-decoration: none;
+  color: white;
 }
 
 .nav-dropdown {
@@ -38,8 +38,8 @@
 }
 
 .nav-dropdown .nav-dropdown {
-  margin-left: 150px;
-  top: 0px;
   position: absolute;
+  top: 0px;
+  margin-left: 150px;
 }
 /*# sourceMappingURL=main.css.map */
